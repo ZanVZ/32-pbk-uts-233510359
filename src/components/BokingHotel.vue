@@ -43,7 +43,7 @@ const filteredBookings = computed(() =>
       <input v-model="roomNumber" placeholder="Nomor Kamar" />
       <button @click="addBooking">+ Tambah</button>
     </div>
-
+<!-- checkbox -->
     <div class="card glass">
       <label>
         <input type="checkbox" v-model="showPendingOnly" />
