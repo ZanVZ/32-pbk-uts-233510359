@@ -18,7 +18,7 @@ const addBooking = () => {
     roomNumber.value = ''
   }
 }
-
+// menghapus bokingan
 const removeBooking = (index) => {
   bookings.value.splice(index, 1)
 }
