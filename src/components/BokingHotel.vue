@@ -26,7 +26,7 @@ const removeBooking = (index) => {
 const toggleCheckin = (booking) => {
   booking.checkin = !booking.checkin
 }
-
+// filter
 const filteredBookings = computed(() =>
   showPendingOnly.value
     ? bookings.value.filter((b) => !b.checkin)
