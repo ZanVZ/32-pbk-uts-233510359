@@ -70,7 +70,7 @@ const filteredBookings = computed(() =>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
+/* style box */
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
