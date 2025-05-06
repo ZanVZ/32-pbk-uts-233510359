@@ -6,6 +6,7 @@ const roomNumber = ref('')
 const bookings = ref([])
 const showPendingOnly = ref(false)
 
+// menambahkan bokingan
 const addBooking = () => {
   if (guestName.value.trim() && roomNumber.value.trim()) {
     bookings.value.push({
