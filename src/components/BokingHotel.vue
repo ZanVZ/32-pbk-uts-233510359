@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
-
+// memasukkan inputan 
 const guestName = ref('')
 const roomNumber = ref('')
 const bookings = ref([])
